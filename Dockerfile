@@ -6,6 +6,8 @@ COPY yarn.lock .
 RUN yarn install --production
 COPY . .
 RUN yarn build
+#PARA ELIMINAR CONTENEDOR DONDE SE ENCUENTRA EL CODIGO
+#sudo docker ps -aqf "name=containername"
 
 
 # Bundle static assets with nginx
