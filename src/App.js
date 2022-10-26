@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          SORRY, WEB NOT AVAILAIBLE
-        </p>
+        <p>sorry, website not available</p>
       </header>
     </div>
   );
